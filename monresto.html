@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet MonResto - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .fiche-projet h3 {
+            color: #66057b;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 0.5rem;
+        }
+        .fiche-projet ul {
+            margin-left: 20px;
+            margin-bottom: 1rem;
+        }
+        .fiche-projet li {
+            margin-bottom: 0.5rem;
+        }
+        .incident-box {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Umumararungu Inès</h1>
+                <ul>
+                    <li><a href="index.html">Retour au Portfolio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section fiche-projet">
+        <div class="container">
+            <h2>Fiche de Réalisation : MonResto</h2>
+
+            <h3>1. Contexte du projet</h3>
+            <ul>
+                <li><strong>Cadre :</strong> Projet de première année de BTS SIO.</li>
+                <li><strong>Problématique :</strong> Un restaurant classique gère souvent ses réservations par téléphone et ses commandes sur papier, ce qui génère des erreurs, des oublis, et une charge mentale importante pendant les services.</li>
+                <li><strong>Objectif :</strong> Concevoir et développer une application web complète (Front-office et Back-office) permettant de digitaliser la relation client, avec un accent fort mis sur l'esthétique et l'expérience utilisateur (UI/UX) pour valoriser l'image de l'établissement.</li>
+            </ul>
+
+            <h3>2. Environnement Technologique</h3>
+            <ul>
+                <li><strong>Architecture :</strong> Application Web (Architecture Client/Serveur).</li>
+                <li><strong>Front-end :</strong> HTML5, CSS3 avancé (travail poussé sur le design graphique, les animations et la responsivité), JavaScript.</li>
+                <li><strong>Back-end & Base de données :</strong> PHP et MySQL (développé initialement sur un environnement serveur local XAMPP).</li>
+            </ul>
+
+            <h3>3. Analyse des Besoins et Fonctionnalités</h3>
+            <ul>
+                <li><strong>Interface Client (Front-office) :</strong>
+                    <ul>
+                        <li>Consultation interactive de la carte et des menus avec un design soigné.</li>
+                        <li>Formulaire de réservation de table en ligne (date, heure, nombre de couverts).</li>
+                        <li>Module de prise de commande avec ajout des plats au panier.</li>
+                    </ul>
+                </li>
+                <li><strong>Interface Restaurateur (Back-office sécurisé) :</strong>
+                    <ul>
+                        <li>Tableau de bord accessible via authentification (identifiant/mot de passe).</li>
+                        <li>Gestion des réservations (Validation, annulation, visualisation du planning).</li>
+                        <li>Gestion de la carte (Possibilité d'ajouter, modifier ou masquer un plat/menu).</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>4. Démarche de Travail et Architecture technique</h3>
+            <ul>
+                <li><strong>Phase 1 - Design et Maquettage :</strong> Étude de l'interface (UI) pour garantir un site attrayant et moderne, maquettage des écrans clients et administrateurs.</li>
+                <li><strong>Phase 2 - Modélisation des données :</strong> Création du dictionnaire de données et du Modèle Conceptuel de Données (MCD) comprenant les entités : Client, Table, Réservation, Plat, Menu, Commande.</li>
+                <li><strong>Phase 3 - Développement :</strong> Intégration du design en HTML/CSS et création de la logique métier en PHP avec les requêtes SQL (opérations CRUD).</li>
+            </ul>
+
+            <div class="incident-box">
+                <strong>📌 Incident d'exploitation et maintenance :</strong> Suite à une migration matérielle (changement de poste de travail) sans externalisation complète de la base de données locale, l'environnement serveur d'origine a été corrompu, rendant la démonstration dynamique du projet indisponible pour cette session.
+            </div>
+
+            <h3>5. Compétences du Bloc E5 Mobilisées</h3>
+            <ul>
+                <li><strong>Concevoir et développer une solution applicative :</strong> Analyse du cahier des charges, maquettage UI/UX, développement Front-end et Back-end.</li>
+                <li><strong>Gérer les données :</strong> Conception du Modèle Conceptuel de Données (MCD) et intégration de la base de données relationnelle via MySQL.</li>
+            </ul>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="index.html" class="btn">Retour à l'accueil</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Umumararungu Inès. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>

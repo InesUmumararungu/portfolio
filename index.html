@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umumararungu Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Umumararungu Inès</h1>
+                <ul>
+                    <li><a href="#mon-parcours">Mon parcours</a></li>
+                    <li><a href="#BTS-SIO">BTS SIO</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Veille-technologie">Veille Technologie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="mon-parcours" class="section">
+        <div class="container">
+            <h1>MON PORTFOLIO</h1>
+            <h2>Développeuse Web & Logiciels</h2> 
+            <h3>À propos de moi</h3>
+            <img src="images/photo_profil.jpg" alt="Photo de profil de Inès Umumararungu" class="profile-img">
+            
+            <p>Je m'appelle Umumararungu Inès et je suis étudiante en <strong>BTS SIO, option SLAM</strong>, au CFA INSTA. Après une première année de licence en informatique à Sorbonne Université, j'ai choisi de me réorienter pour quitter la théorie pure et me plonger au cœur de la programmation concrète. Mon objectif était de pouvoir utiliser mes compétences techniques (PHP/MySQL, Python, HTML/CSS) afin d'apporter des solutions tangibles à des problèmes réels, ce que j'ai pu réaliser à travers mes projets de formation. À terme, je souhaite devenir <strong>cheffe de projet informatique</strong>. Ce métier m'attire particulièrement car il se situe à la croisée de l'expertise technologique et de la dimension humaine, me permettant d'allier ma passion pour le développement logiciel à mes compétences transversales en communication, en gestion de projet et en travail d'équipe.</p>
+        </div>
+    </section>
+    <div style="text-align: center; margin-top: 2rem;">
+                <a href="images/CV-umumararungu.pdf" target="_blank" class="btn">Consulter mon CV</a>
+            </div>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Application Web : Budgeto</h3>
+                    <img src="images/logo-budgeto.png" alt="logo-budgeto" class="project-img">
+                    <p><strong>Contexte :</strong> Développement d'une application de gestion de budget personnel et de suivi des transactions.</p>
+                    <p><strong>Technologies :</strong> PHP, MySQL, HTML/CSS. Environnement serveur LAMP natif sous Linux Fedora.</p>
+                    <p><strong>Compétences mobilisées :</strong> Modélisation de base de données (MCD), développement back-end, gestion des requêtes SQL.</p>
+    
+                    <!-- Conteneur ajouté pour l'alignement des boutons -->
+                    <div class="project-actions">
+                        <a href="https://github.com/TON-PSEUDO/budgeto" target="_blank" class="btn">Code Source (GitHub)</a>
+                        <a href="http://localhost/my-project_PPE" target="_blank" class="btn">Démonstration (Local)</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Projet Professionnelle: Gatari Engineering</h3>
+                    <img src="images/freelance.jpg" alt="Projet Gatari Engineering" class="project-img">
+                    <p><strong>Contexte :</strong> Conception de la présence en ligne pour une jeune entreprise spécialisée dans le génie électrique.</p>
+                    <p><strong>Statut :</strong> En cours de réalisation.</p>
+                    <p><strong>Technologies :</strong> HTML/CSS, PHP, MySQL. Architecture Responsive.</p>
+                    
+                    <div class="project-actions">
+                        <a href="gatari.html" class="btn">Visualiser le projet</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Application Web : MonResto</h3>
+                    <img src="images/logo-resto.jpg" alt="Projet MonResto" class="project-img">
+                    <p><strong>Contexte :</strong> Digitalisation des réservations et des commandes pour un restaurant (Projet de 1ère année).</p>
+                    <p><strong>Technologies :</strong> HTML/CSS (UI/UX avancé), PHP, MySQL.</p>
+                    <p><strong>Statut :</strong> Achevé (Démonstration locale indisponible suite à une migration matérielle).</p>
+                    
+                    <div class="project-actions">
+                        <a href="monresto.html" class="btn">Visualiser le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Umumararungu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
